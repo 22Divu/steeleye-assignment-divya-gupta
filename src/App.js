@@ -5,11 +5,19 @@ import List from './Components/List';
 const listItems = [
   {
     key:'001',
-    text:"I am learning react"
+    text:"I am learning React"
   },
   {
     key:'002',
-    text:"I am learning javascript",
+    text:"I am learning Javascript",
+  },
+  {
+    key:'003',
+    text:"I am learning Nodejs",
+  },
+  {
+    key:'004',
+    text:"I am learning HTML",
   }
 ]
 

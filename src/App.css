@@ -6,3 +6,13 @@ html,body
 .App-Content{
   padding:10vh;
 }
+
+ul{
+  background: #3399ff;
+  padding: 20px;
+}
+
+li{
+  background: #ff9999;
+  padding: 20px;
+}

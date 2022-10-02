@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState } from "react";
+import React, { memo, useCallback, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 
 // Single List Item
@@ -35,9 +35,9 @@ const WrappedListComponent = ({ items }) => {
     setSelectedItemKey(null);
   }, [items]);
 
-  const handleClick = (key) => {
+  const handleClick = useCallback((key) => {
     setSelectedItemKey(key);
-  };
+  },[items]);
 
   return (
     <ul style={{ textAlign: "left" }}>
